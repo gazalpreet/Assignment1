@@ -61,7 +61,7 @@ public class Main {
     //For loop runs while first is less than n, and prints the calculated value of first
     private static void fiboSeriesIte(float n)
     {
-        int second = 0;
+        int second;
         int third = 1;
         for(int first = 0; first<n; first += second)
         {
